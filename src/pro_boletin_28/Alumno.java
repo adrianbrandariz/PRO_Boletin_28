@@ -65,16 +65,6 @@ public class Alumno {
         return "Alumno{" + "nombre=" + nombre + ", nota=" + nota + ", direccion=" + direccion + '}';
     }
     
-    /*
-     * Para poder acceder de forma indirecta a la clase interna, se instancia en
-     * un método de la clase externa.
-     */
-    public void mostrar() {
-        System.out.println("Nombre: " + nombre
-                            + "\nNota: " + nota
-                            + "\nDireccion: " + direccion);
-    }
-    
     /**
      * Método que pide un nuevo valor y cambia la nota anterior por la nueva.
      */
